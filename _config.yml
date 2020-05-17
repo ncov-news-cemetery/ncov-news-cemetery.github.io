@@ -1,0 +1,17 @@
+# Example Site settings
+
+#google_analytics: UA-NNNNNNNN-N
+
+#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+
+#style: light # dark (default) or light
+#listen_for_clients_preferred_style: true # true or false (default)
+title: 2019-nCoV新闻墓园
+header_pages:
+  - index.md
+  - about.md
+  - features.md
+plugins:
+  - jekyll-seo-tag
+url: "https://john-walks-slow.github.io"
+baseurl: "cemetery-of-ncov-news"
