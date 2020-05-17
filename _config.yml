@@ -7,9 +7,13 @@
 #style: light # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)
 title: 2019-nCoV新闻墓园
+description: 记录2019-nCoV/新冠肺炎期间，因审查消失的新闻报道
+logo: 'img/favicon.png'
 style: dark
 listen_for_clients_preferred_style: false
-plugins:
-  - jekyll-seo-tag
 url: 'https://ncov-news-cemetery.github.io'
 baseurl: ''
+lang: 'zh_CN'
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
