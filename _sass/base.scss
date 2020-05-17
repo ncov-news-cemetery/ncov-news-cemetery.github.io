@@ -5,9 +5,9 @@
  * Style variables
  */
 $base-font-family: 'Source Code Pro', monospace !default;
-$base-font-size: 12.5px !default;
-$mobile-font-size: 12px !default;
-$base-line-height: 1.5 !default;
+$base-font-size: 13.5px !default;
+$mobile-font-size: 13px !default;
+$base-line-height: 1.7 !default;
 $container-width: 90% !default;
 $container-max-width: 750px !default;
 
@@ -105,6 +105,11 @@ footer {
   background: var(--selection-background);
   color: var(--selection-text);
 }
+.selected {
+  background: white !important;
+  color: black !important;
+}
+
 ::-moz-selection {
   background: var(--selection-background);
   color: var(--selection-text);
