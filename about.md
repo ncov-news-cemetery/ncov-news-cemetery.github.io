@@ -5,6 +5,8 @@ layout: page
 permalink: /about
 ---
 
+以此记录二零二零年疫情期间一些消失的声音。
+
 Data collected by nCoVMemory. see [nCoVMemory Github Repo](https://github.com/2019ncovmemory/nCovMemory/blob/master/README.md)
 
 Icon made by <a href="https://www.flaticon.com/free-icon/tombstone_2250476" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
