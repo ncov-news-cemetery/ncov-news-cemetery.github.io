@@ -29,7 +29,7 @@ h6:before { content: "######";  margin-right: 9px; }*/
 
 p { word-wrap: break-word; word-break: break-word; white-space: pre-wrap; }
 
-footer { color: var(--text-color); border-top: var(--border); margin: 20px auto 15px; padding-top: 10px; text-align: right; }
+footer { color: var(--text-color); border-top: var(--border); margin: 20px auto 15px; padding-top: 0px; text-align: right; }
 
 header { margin-top: 25px; margin-bottom: 10px; }
 
