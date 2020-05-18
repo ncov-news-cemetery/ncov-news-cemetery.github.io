@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<p>按主题分类：</p>
+<a href="../../">全部</a>
+<a href="../医护">医护</a>
+<a href="../病患">病患</a>
+<a href="../基层">基层</a>
+<a href="../经济">经济</a>
+<a href="../官员">官员</a>
+<a href="../社论">社论/其他</a>
+<footer></footer>
+{{ content }} {% assign contentwonl = content | strip_newlines %} {% unless contentwonl == "" %}
+<br />
+{% endunless %}
+<!-- add line break if there is any content -->
+<ul>
+  {%- for article in site.data.articles -%}
+  {% assign cat = article.cat | url_encode %}
+  {% assign cat_url = "/cat/" | append: cat | append: ".html" %}
+  {%- if cat_url == page.url -%}
+  <li>
+    [{{ article.date}}]
+    <a href="{{ article.archive }}">{{ article.title | escape }}</a> (<b>{{article.media}}</b>)
+  </li>
+  {%- endif -%} {%- endfor -%}
+</ul>

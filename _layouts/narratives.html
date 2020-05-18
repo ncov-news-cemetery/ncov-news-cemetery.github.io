@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% assign contentwonl = content | strip_newlines %} {% unless contentwonl == "" %}
+<br />
+{% endunless %}
+<!-- add line break if there is any content -->
+<ul>
+  {%- for article in site.data.articles -%} {%- if article.category==page.category -%}
+  <li>
+    [{{ article.date}}]
+    <a href="{{ article.archive }}">{{ article.title | escape }}</a> (<b>{{article.media}}</b>)
+  </li>
+  {%- endif -%} {%- endfor -%}
+</ul>
